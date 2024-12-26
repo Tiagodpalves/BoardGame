@@ -154,7 +154,7 @@ if "tabuleiro" not in st.session_state:
 def player_screen_layout():
     col1, col2, col3 = st.columns(3)
     col1.write(' ')
-    col2.image('logo.png', width=350)
+    col2.image('natal/logo.png', width=350)
     col3.write(' ')
         
     st.markdown(
